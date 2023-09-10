@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F59%2F32%2FlVue2v.jpg&f=1&nofb=1&ipt=573813ca34e6fad02b27d0a0746b4f6cd560af216754e638c1f137c9637ac1c6&ipo=images');
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background: #2C5364;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top,#2C5364, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.side-menu {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 200px; /* Ancho del menú lateral */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.side-menu ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 10px;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 10px;
+}
+
+.side-menu ul li a i {
+    margin-right: 10px;
+
+}
+.side-menu ul li :hover {
+    color: #007bff;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 1px;
+    border-radius: 5px;
+}
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Estilo para los enlaces en las secciones */
+section a {
+    color: #007bff;
+}
+body {
+    margin-left: 205px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #2C5364;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0 ;
+}
+
+/* Estilo para los derechos de autor */
+footer p {
+    margin: 0;
+}
